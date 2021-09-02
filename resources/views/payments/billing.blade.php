@@ -1,12 +1,6 @@
 @extends('layouts.app')
-@section('title', 'Page Title')
-
-@section('Styles')
-@endsection
-
 
 @section('content')
-
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -19,16 +13,17 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-                        {{--                        {{$payLink}}--}}
-                        {{--                        <a class="btn btn-primary" href="{{$payLink}}">Buy</a>--}}
+
+                        {{ __('You are logged in!') }}
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 @endsection
 
+{{--                        {{$payLink}}--}}
+{{--                        <a class="btn btn-primary" href="{{$payLink}}">Buy</a>--}}
 
-@section('Scripts')
-@endsection
+
+
