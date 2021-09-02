@@ -17,8 +17,8 @@
                             </div>
                         @endif
 
-                        {{$payLink}}
-                        <a class="btn btn-primary" href="{{$payLink}}">Buy</a>
+                        {{--                        {{$payLink}}--}}
+                        {{--                        <a class="btn btn-primary" href="{{$payLink}}">Buy</a>--}}
                     </div>
                 </div>
             </div>
