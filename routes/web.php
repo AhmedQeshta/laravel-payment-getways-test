@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/pay', [PaymentController::class, 'pay']);
+Route::get('/pay', [PaymentController::class, 'pay'])->name('pay');
 
 
 Auth::routes();
