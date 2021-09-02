@@ -18,7 +18,7 @@
                         @endif
 
                         {{$payLink}}
-                        <a class="btn btn-primary" href="{{$payLink}}">Buy</a>
+                        <a class="btn btn-primary" target="_blank" href="{{$payLink}}">Buy</a>
                     </div>
                 </div>
             </div>
