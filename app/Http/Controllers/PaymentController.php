@@ -14,6 +14,6 @@ class PaymentController extends Controller
 //        $payLink = auth()->user()->charge(14.99, "Pay by paddle");
 //
 //        return view('payments.billing', compact('payLink'));
-        return view('payments.billing');
+        return view('billing');
     }//end pay function
 }
