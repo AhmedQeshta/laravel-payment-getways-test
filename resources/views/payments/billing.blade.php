@@ -14,7 +14,8 @@
                             </div>
                         @endif
 
-                        {{ __('You are logged in!') }}
+                        {{$payLink}}
+                        <a class="btn btn-primary" href="{{$payLink}}">Buy</a>
                     </div>
                 </div>
             </div>
@@ -22,8 +23,7 @@
     </div>
 @endsection
 
-{{--                        {{$payLink}}--}}
-{{--                        <a class="btn btn-primary" href="{{$payLink}}">Buy</a>--}}
+
 
 
 
