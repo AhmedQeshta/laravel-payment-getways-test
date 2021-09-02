@@ -18,6 +18,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('Styles')
+
     @paddleJS
 </head>
 <body>
@@ -94,5 +96,7 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
+    @yield('Scripts')
 </body>
 </html>
